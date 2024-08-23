@@ -1,0 +1,1454 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    height:130px;
+    width:100%;
+    /* background-color:orange; */
+    position:fixed;
+    z-index: 1;
+    background-color: white;
+}
+.emp{
+    height:130px;
+    /* background-color: red; */
+}
+.logo{
+    height:50px;
+    width:200px;
+    background-image: url(./images/logo.svg);
+    background-size:100% 100%;
+    position: absolute;
+    left:50px;
+    top:50px;
+    cursor: pointer;
+}
+.list{
+    height:50px;
+    width:600px;
+    position: absolute;
+    left:350px;
+    top:50px;
+}
+.unde{
+    height:40px;
+    width:600px;
+    position: absolute;
+    top:10px;
+    padding-top: 13px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+.line{
+    height:20px;
+    width:62px;
+    float:left;
+    margin-left:50px;
+    transition-duration:2s;
+}
+.line:hover{
+    background-image: url(./images/underline@2x\ \(1\).png);
+    background-size:100% 100%;
+    cursor: pointer;
+    transition-duration:2s;
+}
+.list li{
+    list-style: none;
+    float: left;
+    margin-left:50px;
+    margin-top:10px;
+    cursor: pointer;
+}
+.btn{
+    height:100px;
+    width:200px;
+    position: absolute;
+    left: 1100px;
+    top:30px;
+}
+.btn1{
+    height:30px;
+    width:50px;
+    position: absolute;
+    top:50px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn2{
+    height:50px;
+    width:140px;
+    color: white;
+    background-color: rgb(34, 178, 235);
+    border: none;
+    border-radius:10px;
+    position: absolute;
+    left:60px;
+    top:40px;
+    transition-duration:2s;
+}
+.btn2:hover{
+    background-color: black;
+    color: rgb(34, 178, 235) ;
+    transition-duration:2s;
+}
+main{
+    height:520px;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+}
+.main1{
+    height:80%;
+    width:30%;
+    /* background-color: red; */
+    float: left;
+    position:absolute;
+    top: 100px;
+    left:80px;
+    padding-top:30px;
+    box-sizing: border-box;
+}
+.main2{
+    height:80%;
+    width:60%;
+    /* background-color: aqua; */
+    float: left;
+    position: absolute;
+    top:100px;
+    left:540px;
+}
+.text{
+    font-size:40px;
+}
+.text1{
+    font-size: 22px;
+    line-height:40px;
+    margin-top:20px;
+}
+.btn3{
+    color: white;
+    border: none;
+    background-color: rgb(34, 178, 235) ;
+    height:60px;
+    
+    width:190px;
+    border-radius:10px;
+    font-size:15px;
+    transition-duration:2s;
+    margin-top:20px;
+}
+.btn3:hover{
+    background-color:black;
+    color:  rgb(34, 178, 235);
+    transition-duration:2s;
+}
+.boy{
+height:150px;
+width:120px;
+position:absolute;
+top:200px;
+animation-name:boy;
+animation-duration:3s;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+@keyframes boy{
+    0%{
+        left:20%;
+    }
+    100%{
+        left:80%;
+    }
+}
+.girl{
+    height:150px;
+    width:120px;
+    position:absolute;
+    top:200px;
+    animation-name:girl;
+    animation-duration:3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    left: 130px;
+    }
+    @keyframes girl{
+        0%{
+            left:20%;
+        }
+        100%{
+            left:80%;
+        }
+    }
+    .boy1{
+        height:150px;
+        width:120px;
+        position:absolute;
+        top:200px;
+        animation-name:boy1;
+        animation-duration:3s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay:2s;
+        left:130px;
+        }
+        @keyframes boy1{
+            0%{
+                left:20%;
+            }
+            100%{
+                left:80%;
+            }
+        }
+        .cir{
+            height:180px;
+            width:180px;
+            background-image: url(./images/circle-orange@2x.png);
+            background-size:100% 100%;
+        }
+        .cir2{
+            height:450px;
+            width:450px;
+            position: relative;
+            bottom:200px;
+            left:50px;
+        }
+        .hero{
+            height:100%;
+            width:100%;
+        }
+        .sound{
+            height:50px;
+            width:70px;
+            position: absolute;
+            background-image: url(./images/bullhorn@2x.png);
+            background-size:100% 100%;
+            bottom:68px;
+            left:260px;
+        }
+        .lines{
+            height:30px;
+            width:30px;
+            background-image: url(./images/horn-lines.svg);
+            background-size:100% 100%;
+            position: absolute;
+            bottom:90px;
+            left:320px;
+            transform: rotate(-25deg);
+            animation: name 2s infinite linear;
+        }
+        @keyframes name {
+            0%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0;
+            }
+        }
+.mess{
+    height:100px;
+    width:200px;
+    /* background-color: red; */
+    position: absolute;
+    bottom:320px;
+    left:300px;
+}
+.mes{
+    height:50px;
+    width:200px;
+    /* background-color:saddlebrown; */
+    position: absolute;
+    top:25px;
+    background-image: url(./images/talk-bubble@2x.png);
+    background-size:100% 100%;
+    animation-name:mes;
+    animation-duration:2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes mes{
+    0%{
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(10%);
+    }
+}
+.mess1{
+    height:100px;
+    width:200px;
+    /* background-color: red; */
+    position: absolute;
+    bottom:20px;
+}
+.mes1{
+    height:50px;
+    width:200px;
+    position: absolute;
+    top:25px;
+    background-image: url(./images/talk-bubble@2x.png);
+    background-size:100% 100%;
+    animation-name:mes1;
+    animation-duration:2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes mes1{
+    0%{
+        transform: translatey(10%);
+    }
+    100%{
+        transform: translatey(-10%);
+    }
+}
+.cir3{
+    height: 400px;
+    width:280px;
+    /* background-color:red; */
+    position: absolute;
+    bottom:0px;
+    left:529px;
+    background-image: url(./images/hero-base2@2x.png);
+    background-size:150% 100%;
+    overflow: hidden;
+}
+.search{
+    height: 30px;
+    width:220px;
+    background-color:skyblue;
+    position: absolute;
+    top:170px;
+    left:60px;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    overflow: hidden;
+}
+.sea1{
+    height:1px;
+    width:250px;
+    background-color: skyblue;
+    border-bottom:1px solid black;
+    position: absolute;
+    top:14px;
+    animation-name:dot;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    /* overflow: hidden; */
+    animation-iteration-count:infinite;
+    /* animation-delay:0s; */
+    /* animation-direction: reverse; */
+}
+@keyframes dot{
+    0%{
+        left:0%;
+    }
+    100%{
+        left:50%;
+    }
+}
+.sea1 img{
+    margin-bottom:13px;
+    width:300px;
+}
+.sear{
+    height:32px;
+    width:150px;
+    /* background-color:red; */
+    position: absolute;
+    left:50px;
+    top:170px;
+    background-image: url(./images/search-bar@2x.png);
+    background-size:100% 115%;
+    border-left:1px solid black;
+    border-radius:20px;
+}
+.graph{
+    height:70px;
+    width:300px;
+    /* border:1px solid rebeccapurple; */
+    position: relative;
+    top:220px;
+    left:70px;
+    overflow: hidden;
+    /* background-image: url(./images/graph-wave@2x.png);
+    background-size:100% 100%; */
+    
+}
+/* .graph img{
+    height:100%;
+    width:100%;
+    animation-name:graph;
+    animation-duration:5s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+}
+@keyframes graph{
+    0%{
+        right: 100%;
+    }
+    100%{
+        left:0%;
+    } */
+
+.gra{
+    position: absolute;
+    height:100%;
+    width:100%;
+    /* background-color:red; */
+    background-image: url(./images/graph-wave@2x.png);
+    background-size:100% 100%;
+    animation-name: grph;
+    animation-duration: 10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+@keyframes grph{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:-100%;
+    }
+}
+.empt{
+    height:150px;
+    width:100%;    
+}
+.com{
+    height:100px;
+    width:100%;
+    /* background-color: red; */
+}
+.log{
+    height:100%;
+    width:15%;
+    /* background-color:orange; */
+    float: left;
+    margin-left:20px;
+    box-sizing: border-box;
+    padding-left:40px;
+}
+.log img{
+    height:50%;
+    width:70%;
+}
+.influ{
+    height:200px;
+    width:100%;
+    /* background-color:red; */
+    text-align: center;
+}
+.p1{
+    font-size:40px;
+}
+.p2{
+    font-size:22px;
+    margin-top:10px;
+    line-height:30px;
+}
+.inf{
+    height:45px;
+    width:130px;
+    border: none;
+    background-color:rgb(34, 178, 235) ;
+    color:white;
+    border-radius:10px;
+    margin-top:30px;
+    transition-duration:2s;
+}
+.inf:hover{
+    background-color:black;
+    color: rgb(34, 178, 235);
+    transition-duration:2s;
+}
+.access{
+    height:100vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+    top:50px;
+}
+.acc{
+    height:65%;
+    width:30%;
+    /* background-color: red; */
+    float:left;
+    position: absolute;
+    top:100px;
+    left:70px;
+}
+.acc1{
+    height:65%;
+    width:55%;
+    float: left;
+    /* background-color:aqua; */
+    position: absolute;
+    top:100px;
+    left:540px;
+    background-image: url(./images/work-illus1@2x.png);
+    background-size:100% 100%;
+}
+.h{
+    margin-top:20px;
+}
+.p3{
+    font-size:17px;
+    line-height:30px;
+    margin-top:15px;
+}
+.inf1{
+    height:45px;
+    width:130px;
+    border: none;
+    background-color:rgb(34, 178, 235) ;
+    color:white;
+    border-radius:10px;
+    margin-top:40px;
+    transition-duration:2s;
+}
+.inf1:hover{
+    background-color:black;
+    color: rgb(34, 178, 235);
+    transition-duration:2s;
+}
+.han{
+    height:400px;
+    width:500px;
+    /* background-color:silver; */
+    position: absolute;
+    top:70px;
+    left:160px;
+}
+.hand{
+    height:70%;
+    width:40%;
+    /* background-color: red; */
+    float:left;
+}
+.hand img{
+    height:100%;
+    width:90%;
+}
+.hand1{
+    height:70%;
+    width:40%;
+    /* background-color: red; */
+    float:left;
+    margin-left:30px;
+    transition-delay:.3s;
+
+}
+.hand1 img{
+    height:100%;
+    width:90%;
+}
+.create{
+    height:90vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+}
+.hand2{
+    height:70%;
+    width:55%;
+    /* background-color:red; */
+    position: absolute;
+    top:50px;
+    left:70px;
+    background-image: url(./images/work-illus2@2x.png);
+    background-size:100% 100%;
+    overflow: hidden;
+}
+.handd{
+    height:190px;
+    width:120px;
+    /* background-color: orange; */
+    position: absolute;
+    left:102px;
+    top:110px;
+    background-image: url(./images/work2-photo1@2x.png);
+    background-size:100% 100%;
+    transition-delay:.3s;
+}
+.bulb{
+    height:110px;
+    width:150px;
+    background-image: url(./images/work2-bubble@2x.png);
+    background-size:100% 100%;
+    position: absolute;
+    top:35px;
+    left:50px;
+}
+.hand3{
+    height:70%;
+    width:32%;
+    /* background-color:aqua; */
+    position: absolute;
+    top:50px;
+    left:65%;
+}
+.manage{
+    height:80vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+}
+.mana{
+    height:75%;
+    width:35%;
+    /* background-color:red; */
+    position: absolute;
+    left:70px;
+    top:20px;
+}
+.mana1{
+    height:78%;
+    width:58%;
+    /* background-color:aqua; */
+    position: absolute;
+    left:40%;
+    background-image: url(./images/work-illus3@2x.png);
+    background-size:100% 100%;
+}
+.hand4{
+    height:250px;
+    width:180px;
+    /* background-color:red; */
+    position: absolute;
+    left:620px;
+    top:70px;
+    background-image: url(./images/work3-photo1@2x.png);
+    background-size: 100% 100%;
+}
+.box{
+    height:100px;
+    width:100px;
+    /* background-color: gray; */
+    position: absolute;
+    left:660px;
+    top:310px;
+    background-image: url(./images/work3-shape.svg);
+    background-size:100% 100%;
+}
+.amplify{
+    height:80vh;
+    width:100%;
+    /* background-color: orange; */
+    position: relative;
+}
+.amp{
+    height:90%;
+    width:55%;
+    /* background-color:red; */
+    position: absolute;
+    left:5%;
+    background-image: url(./images/work-illus4@2x.png);
+    background-size:100% 100%;
+}
+.amp1{
+    height:80%;
+    width:30%;
+    /* background-color:aqua; */
+    position: absolute;
+    left:65%;
+}
+.hand5{
+    height:250px;
+    width:180px;
+    /* background-color:black; */
+    position: absolute;
+    left:72%;
+    top:19%;
+    background-image: url(./images/work4-photo1@2x.png);
+    background-size:100% 100%;
+}
+.integrate{
+    height:90vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+}
+.int{
+    height:70%;
+    width:35%;
+    /* background-color:red; */
+    position: absolute;
+    left:5%;
+    top:10%;
+}
+.int1{
+    height:80%;
+    width:55%;
+    /* background-color:aqua; */
+    position: absolute;
+    left:40%;
+    background-image: url(./images/pricing-brands-bot@2x.png);
+    background-size:100% 100%;
+}
+.int1a{
+    height:390px;
+    width:600px;
+    /* background-color:red; */
+    background-image: url(./images/pricing-brands-top@2x.png);
+    background-size:100% 100%;
+    position: absolute;
+    top:20px;
+    left:10px;
+}
+.package{
+    height:50vh;
+    width:100%;
+    /* background-color:orange; */
+    padding-top:50px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.p4{
+    font-size:22px;
+    line-height:35px;
+    margin-top:30px;
+}
+.pack{
+    height:60px;
+    width:300px;
+    background-color:rgb(34, 178, 235) ;
+    border:none;
+    border-radius:10px;
+    margin-top:50px;
+    color:white;
+    font-size:18px;
+    transition-duration:1s;
+}
+.pack:hover{
+    background-color: black;
+    color:rgb(34, 178, 235);
+    transition-duration:1s;
+}
+.cards{
+    height:60vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+    overflow: hidden;
+}
+.img1{
+    height:120px;
+    width:120px;
+    transition-delay:1s;
+}
+.img2{
+    height:150px;
+    width:140px;
+    position: absolute;
+    left:400px;
+    top:50px;
+    transition-delay:.5s;
+}
+.img3{
+    height:250px;
+    width:300px;
+    position: absolute;
+    top:100px;
+    transition-delay: .1s;
+}
+.img4{
+    height:250px;
+    width:250px;
+    position: absolute;
+    left:300px;
+    top:20px;
+}
+.img5{
+    height:80px;
+    width:250px;
+    position: absolute;
+    top:280px;
+    left:290px;
+}
+.img6{
+    height:250px;
+    width:250px;
+    position: absolute;
+    transform: rotate(-40deg);
+    top:350px;
+    left:420px;
+    border: 1px solid;
+}
+.img7{
+    height:200px;
+    width:200px;
+    position: absolute;
+    left:86%;
+    top:40px;
+}
+.img8{
+    height:600px;
+    width:600px;
+    position: absolute;
+    left:500px;
+    top:-100px;
+}
+.img9{
+    position: absolute;
+    height:300px;
+    width:200px;
+    left:76%;
+    top:50px;
+    transition-delay:.6s;
+}
+.img10{
+    height:150px;
+    width:150px;
+    position: absolute ;
+    left:58%;
+    top:150px;
+    transition-delay:.8s;
+}
+.img11{
+    height:150px;
+    width:150px;
+    position: absolute;
+    left:64%;
+    top:180px;
+    transition-delay:1s;
+
+}
+.img12{
+    position: absolute;
+    height:300px;
+    width:200px;
+    left:42%;
+    top:90px;
+}
+.img13{
+    position: absolute;
+    height:50px;
+    width:60px;
+    left:58%;
+    top:70px;
+    transition-delay:1.2s;
+}
+.img14{
+    height:80px;
+    width:90px;
+    position: absolute;
+    left:70%;
+    top:79%;
+}
+.empty{
+    height: 150px;
+    width:100%;
+    /* background-color:red; */
+}
+.case{
+    height:170px;
+    width:100%;
+    /* background-color: orange; */
+    padding-left:80px;
+    box-sizing: border-box;
+    position: relative;
+}
+.case1{
+    font-size:40px;
+}
+.case2{
+    font-size:24px;
+    margin-top:20px;
+    line-height:35px;
+}
+.caseb{
+   position: absolute;
+   left:78%;
+   top:30px;
+   height:50px;
+   width:220px;
+   border: none;
+   border-radius:10px;
+   color: white;
+   font-size:17px;
+   background-color:rgb(34, 178, 235);
+   transition-duration:2s;
+}
+.caseb:hover{
+    color:rgb(34, 178, 235);
+    background-color:black;
+    transition-duration:2s;
+}
+.card{
+    height:100vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+}
+.card1{
+    height:100%;
+    width:28%;
+    /* background-color: red; */
+    float: left;
+    margin-left:55px;
+    border:1px solid black;
+    border-radius:10px;
+    position: relative;
+    text-align: center;
+}
+.logo1{
+    height:190px;
+    width:200px;
+    position: absolute;
+    left:90px;
+    top:-30px;
+}
+.logo2{
+    height:50px;
+    width:200px;
+    position: absolute;
+    left:90px;
+    top:40px;
+}
+.logo3{
+    height:90px;
+    width:200px;
+    position: absolute;
+    left:90px;
+    top:30px;
+}
+.text2{
+    margin-top:130px;
+    line-height:30px;
+}
+.part{
+    height:220px;
+    width:350px;
+    /* background-color:skyblue; */
+    position: absolute;
+    top:300px;
+    left:15px;
+}
+.part1{
+    height:70%;
+    width:49.5%;
+    /* background-color:crimson; */
+    float:left;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+    border-right:1px solid silver;
+}
+.part2{
+    height:70%;
+    width:49.5%;
+    /* background-color:crimson; */
+    float:left;
+    border-top:1px solid silver;
+    border-bottom:1px solid silver;
+}
+.part3{
+    height:29%;
+    width:49.5%;
+    float: left;
+    /* background-color: brown; */
+    border-bottom:1PX SOLID silver;
+    /* border-right:1PX SOLID gray; */
+    text-align: center;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+.part4{
+    height:29%;
+    width:49.5%;
+    float: left;
+    /* background-color: brown; */
+    border-bottom:1PX SOLID silver;
+    border-left:1px solid silver;
+    text-align: center;
+    padding-top:20px;
+    box-sizing: border-box;
+}
+.grap{
+    height:80px;
+    width:70px;
+    margin-top:10px;
+}
+.part1 p{
+    font-size:35px;
+}
+.part2 p{
+    font-size:35px;
+}
+.btn4{
+    height:50px;
+    width:150px;
+    border: none;
+    border-radius:10px;
+    color:white;
+    background-color:rgb(34, 178, 235);
+    position: absolute;
+    top:87%;
+    left:30%;
+    transition-duration:2s;
+}
+.btn4:hover{
+    color: rgb(34, 178, 235);
+    background-color:black;
+    transition-duration:2s;
+}
+.anim{
+    height:55vh;
+    width:93%;
+    background-color:rgba(135, 207, 235, 0.281);
+    margin-left:50px;
+    position: relative;
+}
+.hero3{
+    height:320px;
+    width:500px;
+    position: absolute;
+    top:50px;
+    left:400px;
+}
+.search1{
+    height:15px;
+    width:160px;
+    background-color:skyblue;
+    position: absolute;
+    top:180px;
+    left:490px;
+    border-bottom:1px solid black;
+    border-top:1px solid black;
+    overflow: hidden;
+}
+.sea2{
+    height:1px;
+    width:250px;
+    background-color: skyblue;
+    border-bottom:1px solid black;
+    position: absolute;
+    top:6px;
+    animation-name:dot;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    /* overflow: hidden; */
+    animation-iteration-count:infinite;
+    /* animation-delay:0s; */
+    /* animation-direction: reverse; */
+}
+@keyframes dot{
+    0%{
+        left:0%;
+    }
+    100%{
+        left:50%;
+    }
+}
+.sea2 img{
+    margin-bottom:13px;
+    width:200px;
+}
+.sear1{
+    height:18px;
+    width:100px;
+    /* background-color:red; */
+    position: absolute;
+    left:470px;
+    top:180px;
+    background-image: url(./images/search-bar@2x.png);
+    background-size:100% 115%;
+    border-left:1px solid black;
+    border-radius:20px;
+    /* z-index:2; */
+}
+.graph{
+    height:30px;
+    width:160px;
+    /* border:1px solid rebeccapurple; */
+    position: relative;
+    top:220px;
+    left:480px;
+    overflow: hidden;
+    /* background-image: url(./images/graph-wave@2x.png);
+    background-size:100% 100%; */
+    
+}
+.gra{
+    position: absolute;
+    height:100%;
+    width:100%;
+    /* background-color:red; */
+    background-image: url(./images/graph-wave@2x.png);
+    background-size:100% 100%;
+    animation-name: grph;
+    animation-duration:10s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+}
+@keyframes grph{
+    0%{
+        left:100%;
+    }
+    100%{
+        left:-100%;
+    }
+}
+.message{
+    height:100px;
+    width:200px;
+    /* background-color: red; */
+    position: absolute;
+    left:600px;
+    z-index: -1;
+}
+.message1{
+    height:50px;
+    width:200px;
+    /* background-color:saddlebrown; */
+    position: absolute;
+    top:25px;
+    background-image: url(./images/talkbubble-blank@2x.png);
+    background-size:100% 100%;
+    animation-name:message;
+    animation-duration:2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes message{
+    0%{
+        transform: translateY(-7%);
+    }
+    100%{
+        transform: translateY(7%);
+    }
+}
+.message2{
+    height:100px;
+    width:200px;
+    /* background-color: red; */
+    position: absolute;
+    left:750px;
+    top:120px;
+}
+.message3{
+    height:50px;
+    width:200px;
+    /* background-color:saddlebrown; */
+    position: absolute;
+    top:25px;
+    background-image: url(./images/talkbubble-guy@2x.png);
+    background-size:100% 100%;
+    animation-name:message1;
+    animation-duration:2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes message1{
+    0%{
+        transform: translateY(7%);
+    }
+    100%{
+        transform: translateY(-7%);
+    }
+}
+.message4{
+    height:100px;
+    width:200px;
+    /* background-color: red; */
+    position: absolute;
+    left:400px;
+    top:290px;
+}
+.message5{
+    height:50px;
+    width:200px;
+    /* background-color:saddlebrown; */
+    position: absolute;
+    top:25px;
+    background-image: url(./images/talkbubble-girl@2x.png);
+    background-size:100% 100%;
+    animation-name:mes;
+    animation-duration:2s;
+    animation-direction: alternate-reverse;
+    animation-timing-function:linear;
+    animation-iteration-count: infinite;
+}
+@keyframes mes{
+    0%{
+        transform: translateY(7%);
+    }
+    100%{
+        transform: translateY(-7%);
+    }
+}
+.line1{
+    height:30px;
+    width:30px;
+    background-image: url(./images/horn-lines.svg);
+    background-size:100% 100%;
+    position: absolute;
+    bottom: -5px;
+    left:720px;
+    transform: rotate(25deg);
+    animation: ops 2s infinite linear;
+}
+@keyframes ops {
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+.start{
+    height:40vh;
+    width:93%;
+    margin-left:50px;
+    background-color:rgba(135, 207, 235, 0.281);
+    text-align: center;
+    padding-top:65px;
+    box-sizing: border-box;
+}
+.s1{
+    font-size:20px;
+    line-height:40px;
+    margin-top:20px;
+}
+.s2{
+    color: rgb(34, 178, 235);
+    font-size:20px;
+    cursor: pointer;
+}
+.input{
+    height:90vh;
+    width:93%;
+    background-color:rgba(135, 207, 235, 0.281) ;
+    margin-left:50px;
+}
+.input1{
+    height:100%;
+    width:70%;
+    /* background-color: red; */
+    margin-left:180px;
+}
+.i1{
+    height:50px;
+    width:400px;
+    border-radius:10px;
+    border:1px solid black;
+    margin-left:30px;
+    margin-top:30px;
+    color:black;
+}
+.as{
+    height:200px;
+    width:95%;
+    background-color: white;
+    border:1px solid;
+    margin-top:30px;
+    margin-left:30px;
+    border-radius:10px;
+    font-size:18px;
+    padding-top:10px;
+    padding-left:10px;
+    box-sizing: border-box;
+    
+}
+.button{
+    height:30vh;
+    width:93%;
+    background-color:rgba(135, 207, 235, 0.281) ;
+    margin-left:50px;
+    position: relative;
+}
+.btn5{
+    background-color: rgb(34, 178, 235);
+    border:none;
+    border-radius:10px;
+    color:white;
+    height:50px;
+    width:250px;
+    margin-left:40%;
+    margin-top:30px;
+    transition-duration:1s;
+}
+.btn5:hover{
+    background-color: black;
+    color: rgb(34, 178, 235);
+    transition-duration:1s;
+}
+.img15{
+    height:400px;
+    width:200px;
+    position: absolute;
+    left:87%;
+    bottom:0px;
+    overflow: hidden;
+    
+}
+.img16{
+    height:160px;
+    width:170px;
+    position: absolute;
+    left:88%;
+    bottom:120px;
+}
+.img17{
+    height:50px;
+    width:50px;
+    position: absolute;
+    left:95%;
+    bottom:350px;
+    animation-name:envelop;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes envelop{
+    0%{
+        transform: translateY(10%);
+    }
+    100%{
+        transform: translateY(-10%);
+    }
+}
+.img18{
+    height:50px;
+    width:50px;
+    position: absolute;
+    left:98%;
+    bottom:290px;
+    animation-name:enve;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes enve{
+    0%{
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(10%);
+    }
+}
+.img19{
+    height:50px;
+    width:50px;
+    position: absolute;
+    left:88%;
+    bottom:290px;
+    animation-name:envel;
+    animation-duration:1s;
+    animation-timing-function: linear;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes envel{
+    0%{
+        transform: translateY(-10%);
+    }
+    100%{
+        transform: translateY(10%);
+    }
+}
+.built{
+    height:50vh;
+    width:100%;
+    /* background-color: orange; */
+    position: relative;
+}
+.img20{
+    height:150px;
+    width:150px;
+    position: absolute;
+    left:50px;
+    top:100px;
+}
+.img21{
+    height:40px;
+    width:200px;
+    position: absolute;
+    left:43%;
+    top:50px;
+}
+.text7{
+    height:100px;
+    width:400px;
+    /* background-color: red; */
+    font-size:20px;
+    text-align: center;
+    line-height:40px;
+    position: absolute;
+    left:36%;
+    top:110px;
+}
+.icons{
+    height:55px;
+    width:320px;
+    /* background-color:aqua; */
+    position: absolute;
+    left:38%;
+    top:220px;
+}
+.icon{
+    height:100%;
+    width:18%;
+    /* background-color:red; */
+    float:left;
+    margin-left:20px;
+    font-size:30px;
+    text-align: center;
+    padding-top:10px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    color: rgb(34, 178, 235);
+    border-radius:10px;
+    transition-duration:1s;
+}
+.icon:hover{
+    background-color:black;
+    transition-duration:1s;
+}
+footer{
+    height:60vh;
+    width:100%;
+    /* background-color:orange; */
+    position: relative;
+}
+.t11{
+    height:70%;
+    width:17%;
+    /* background-color: red; */
+    position: relative;
+    float: left;
+    margin-left:30px;
+}
+.t11 p{
+    margin-top:20px;
+}
+.t11 p:hover{
+    color:rgb(34, 178, 235);
+    cursor: pointer;
+}
+.foot{
+    height:50px;
+    width:400px;
+    /* background-color:skyblue; */
+    position: absolute;
+    bottom:50px;
+    left:40px;
+}
+.foot2{
+    height:50px;
+    width:200px;
+    /* background-color: skyblue; */
+    position: absolute;
+    bottom:50px;
+    right:100px;
+}
+
+
+
